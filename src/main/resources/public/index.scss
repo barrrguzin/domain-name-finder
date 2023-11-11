@@ -1,0 +1,80 @@
+.network-scanner {
+  color:#313437;
+  background-color:#fff;
+  padding:50px 0;
+}
+
+.network-scanner p {
+  color:#7d8285;
+  line-height:1.5;
+}
+
+.network-scanner h2 {
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:25px;
+  line-height:1.5;
+  padding-top:0;
+  margin-top:0;
+  color:inherit;
+}
+
+.network-scanner .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 25px;
+}
+
+.network-scanner .intro p {
+  margin-bottom:35px;
+}
+
+.network-scanner form {
+  justify-content:center;
+}
+
+.network-scanner form .form-control {
+  background:#eff1f4;
+  border:none;
+  border-radius:3px;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:9px;
+  height:45px;
+  margin-right:10px;
+  min-width:250px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.network-scanner form .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+}
+
+.network-scanner form .btn:hover {
+  opacity:1;
+}
+
+.network-scanner form .btn:active {
+  transform:translateY(1px);
+}
+
+.network-scanner form .btn-primary {
+  margin-top: 20px;
+  background-color:#055ada;
+  color:#fff;
+  outline:none;
+}
+

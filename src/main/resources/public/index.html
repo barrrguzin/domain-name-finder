@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.scss">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Scan network</title>
+</head>
+<body>
+<div class="network-scanner">
+
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Поиск доменных имен</h2>
+            <p class="text-center">Выполняет сканирование заданной сети на наличие SSL сертификатов и возвращает доменные имена найденный в этих сертификатах в виде файла.</p>
+        </div>
+
+        <form class="form-inline" method="post" action="/">
+            <div class="form-group">
+                <input class="form-control" type="text" name="network" placeholder="192.168.0.0/24">
+                <input class="form-control" type="number" name="threads" placeholder="Потоки">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Скнаировать</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
